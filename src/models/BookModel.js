@@ -60,6 +60,9 @@ const BookSchema = new mongoose.Schema(
       type: Date,
       required: [true, "ReleasedAt is required"],
     },
+    bookCover: {
+      type: String,
+    },
   },
   { timestamps: true }
 );
